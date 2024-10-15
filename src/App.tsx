@@ -1,7 +1,9 @@
 import AppNavbar from "./AppNavbar";
 
 import Sidebar from "./Sidebar";
-import Item from "./Item";
+
+//remove Static Item
+//import Item from "./Item";
 
 import TodoApp from "./components/todos/TodoApp";
 
@@ -18,7 +20,7 @@ export default function App() {
           <Sidebar />
         </div>
         <div className="col-auto">
-        <Item/>
+       <TodoApp></TodoApp>
        
          
         </div>
